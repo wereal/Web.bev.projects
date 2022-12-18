@@ -10,15 +10,16 @@ h1 {
     margin-bottom: 15px;
   }
   
-  h2 , h3 , h4, h5 {
+  h2 , h3 , {
     font-size: 30px;
   }
   
   .established {
     font-style: italic;
+    text-align: center;
   }
   
-  h1, h2, h3 , h4 , h5 , p {
+ .cc {
     text-align: center;
   }
   
@@ -41,11 +42,13 @@ h1 {
     margin-top: 25px;
   }
   
-  h1, h2 , h3 , h4 , h5 {
+  h1, h2 , h3 {
     font-family: Impact, serif;
   }
+
+
   
-  .item p {
+  .item  {
     display: inline-block;
     margin-top: 5px;
     margin-bottom: 5px;
