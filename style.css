@@ -1,29 +1,37 @@
+/* Body styles */
 body {
     background-color: rgb(150, 196, 218);
     font-family: sans-serif;
     padding: 20px;
   }
-
-h1 {
+  
+  /* Header styles */
+  header {
     font-size: 40px;
     margin-top: 0;
     margin-bottom: 15px;
+    font-family: Impact, serif;
   }
   
-  h2 , h3 , {
+  /* Subheader styles */
+  h2, h3 {
     font-size: 30px;
+    font-family: Impact, serif;
   }
   
+  /* Established text styles */
   .established {
     font-style: italic;
     text-align: center;
   }
   
- .cc {
+  /* Centered content styles */
+  .center-content {
     text-align: center;
   }
   
-  .menu {
+  /* Menu styles */
+  .main-menu {
     width: 80%;
     background-color: rgb(71, 162, 205);
     margin-left: auto;
@@ -32,49 +40,49 @@ h1 {
     max-width: 500px;
   }
   
+  /* Horizontal rule styles */
   hr {
     height: 2px;
     background-color: rgb(73, 67, 67);
     border-color: rgb(111, 107, 107);
   }
   
+  /* Bottom line styles */
   .bottom-line {
     margin-top: 25px;
   }
   
-  h1, h2 , h3 {
-    font-family: Impact, serif;
-  }
-
-
-  
-  .item  {
+  /* Item styles */
+  .item {
     display: inline-block;
     margin-top: 5px;
     margin-bottom: 5px;
     font-size: 18px;
   }
   
-  .CT {
+  /* Item description styles */
+  .item-description {
     text-align: left;
     width: 75%;
   }
   
-  .price {
+  /* Item price styles */
+  .item-price {
     text-align: right;
     width: 25%
   }
-
-  /*footer*/
-
+  
+  /* Footer styles */
   footer {
     font-size: 14px;
   }
   
+  /* Address styles */
   .address {
     margin-bottom: 5px;
   }
   
+  /* Link styles */
   a {
     color: black;
   }
@@ -90,3 +98,4 @@ h1 {
   a:active {
     color:  rgb(71, 162, 205);
   }
+  
