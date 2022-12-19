@@ -1,110 +1,45 @@
-/* Body styles */
-body {
 
-    background-color: rgb(177, 217, 235);
-    font-family: Helvetica;
-    padding: 20px;
+main {
+  font-family: Arial, sans-serif;
+}
 
-  }
-  
-  /* Header styles */
-  header {
+article {
+  display: flex;
+  align-items: center;
+}
 
-    font-size: 50px;
-    margin-top: 0;
-    margin-bottom: 15px;
-    font-family:  Helvetica;
+header h1 {
+  font-size: 2em;
+  margin: 0;
+}
 
-  }
-  
-  /* Subheader styles */
-  h2, h3 {
+.established {
+  font-style: italic;
+  margin-left: auto;
+}
 
-    font-size: 30px;
-    font-family: Helvetica;
+hr {
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+}
 
-  }
-  
-  /* Established text styles */
-  .established {
+section h2 {
+  font-size: 1.5em;
+  margin: 1em 0;
+}
 
-    font-style: Helvetica;
-    text-align: center;
+.item {
+  display: flex;
+  align-items: center;
+  margin: 0.5em 0;
+}
 
-  }
-  
-  /* Centered content styles */
-  .center-content {
-    
-    text-align: center;
-  }
-  
-  /* Menu styles */
-  .main-menu {
-    width: 80%;
-    background-color: rgb(71, 162, 205);
-    margin-left: auto;
-    margin-right: auto;
-    padding: 20px;
-    max-width: 500px;
-  }
-  
-  /* Horizontal rule styles */
-  hr {
-    height: 2px;
-    background-color: rgb(42, 88, 194);
-    border-color: rgb(6, 5, 5);
-  }
-  
-  /* Bottom line styles */
-  .bottom-line {
-    margin-top: 25px;
-  }
-  
-  /* Item styles */
-  .item {
-    display: inline-block;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    font-size: 18px;
-  }
-  
-  /* Item description styles */
-  .item-description {
-    text-align: left;
-    width: 75%;
-  }
-  
-  /* Item price styles */
-  .item-price {
-    text-align: right;
-    width: 25%
-  }
-  
-  /* Footer styles */
-  footer {
-    font-size: 14px;
-  }
-  
-  /* Address styles */
-  .address {
-    margin-bottom: 5px;
-  }
-  
-  /* Link styles */
-  a {
-    color: black;
-  }
-  
-  a:visited {
-    color: black;
-  }
-  
-  a:hover {
-    color:  rgb(71, 162, 205);
-  }
-  
-  a:active {
-    color:  rgb(71, 162, 205);
-  }
-  
+.product-name {
+  flex: 1;
+}
+
+.price {
+  font-weight: bold;
+  margin-left: auto;
+}
