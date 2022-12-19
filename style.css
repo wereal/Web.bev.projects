@@ -3,14 +3,18 @@
   font-family: Arial, sans-serif;
 } */
 
-article {
-  display: flex;
-  align-items: center;
+body {
+  background-image: url("https://unsplash.com/photos/vYcADOyUrdA");
+  font-family: sans-serif;
+  padding: 20px;
+}
+.menu {
+background: rgb(2,0,36);
+background: #C4A484
+  
 }
 
-header h1 {
-  font-size: 2em;
-  margin: 0;
+header {
   text-align: center;
 }
 
@@ -20,15 +24,20 @@ header h1 {
   text-align: center;
 }
 
+h2 , h3 , h4 { 
+  text-align: center;
+}
 hr {
   border: 0;
-  border-top: 1px solid #ccc;
+  border-top: 1px solid rgb(23, 19, 19);
   margin: 1em 0;
+  background-color: rgb(11, 12, 16);
+  border-color: rgb(6, 5, 5);
 }
 
 section h2 {
   font-size: 1.5em;
-  margin: 1em 0;
+  margin: 0.5em 0;
 }
 
 .item {
@@ -37,15 +46,38 @@ section h2 {
   margin: 0.5em 0;
 }
 
-.product-name {
-  flex: 1;
-  text-align: left;
-    width: 75%;
+
+
+.price , .product-name  {
+  text-align:center;
+  width:100%;
 }
 
-.price {
-  font-weight: bold;
-  margin-left: auto;
-  text-align: right;
-    width: 25%
-}
+ 
+/* Footer styles */
+  footer {
+    font-size: 14px;
+    text-align:center;
+  }
+  
+  /* Address styles */
+  .address {
+    margin-bottom: 5px;
+  }
+  
+  /* Link styles */
+  a {
+    color: black;
+  }
+  
+  a:visited {
+    color: black;
+  }
+  
+  a:hover {
+    color:  rgba(146, 157, 19, 0.288);
+  }
+  
+  a:active {
+    color:  rgba(92, 127, 22, 0.348);
+  }
