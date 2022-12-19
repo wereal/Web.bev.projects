@@ -1,7 +1,7 @@
 
-main {
+/*main {
   font-family: Arial, sans-serif;
-}
+} */
 
 article {
   display: flex;
@@ -11,11 +11,13 @@ article {
 header h1 {
   font-size: 2em;
   margin: 0;
+  text-align: center;
 }
 
 .established {
   font-style: italic;
   margin-left: auto;
+  text-align: center;
 }
 
 hr {
@@ -37,9 +39,13 @@ section h2 {
 
 .product-name {
   flex: 1;
+  text-align: left;
+    width: 75%;
 }
 
 .price {
   font-weight: bold;
   margin-left: auto;
+  text-align: right;
+    width: 25%
 }
