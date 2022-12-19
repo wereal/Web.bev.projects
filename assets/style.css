@@ -1,41 +1,32 @@
 /* Body styles */
 body {
-
-    background-color: rgb(177, 217, 235);
-    font-family: Helvetica;
+    background-color: rgb(150, 196, 218);
+    font-family: sans-serif;
     padding: 20px;
-
   }
   
   /* Header styles */
   header {
-
     font-size: 50px;
     margin-top: 0;
     margin-bottom: 15px;
-    font-family:  Helvetica;
-
+    font-family: Impact, serif;
   }
   
   /* Subheader styles */
   h2, h3 {
-
     font-size: 30px;
-    font-family: Helvetica;
-
+    font-family: Impact, serif;
   }
   
   /* Established text styles */
   .established {
-
-    font-style: Helvetica;
+    font-style: italic;
     text-align: center;
-
   }
   
   /* Centered content styles */
   .center-content {
-    
     text-align: center;
   }
   
@@ -52,8 +43,8 @@ body {
   /* Horizontal rule styles */
   hr {
     height: 2px;
-    background-color: rgb(42, 88, 194);
-    border-color: rgb(6, 5, 5);
+    background-color: rgb(73, 67, 67);
+    border-color: rgb(111, 107, 107);
   }
   
   /* Bottom line styles */
