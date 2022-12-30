@@ -11,6 +11,7 @@
 
 <main>
  
+  <div id="preloader" style="display: block;" ></div>
   <section class="clr"> 
   <nav>
         <div class="logo">
@@ -18,7 +19,7 @@
         </div>
     <ul class="nav_links"> 
         <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About me</a></li>
+        <li><a href="aboutme.html">About me</a></li>
         <li><a href="services.html">Services</a></li> 
         <li><a href="portfolio.html">Portfolio</a></li>
         <li><a href="contact.html">Contact me</a></li>
@@ -45,5 +46,17 @@
 
 <!--<a href="#0" class="cd-top"> <i class="ion-android-arrow-up"></i> </a> -->
  <script src="js-file/js-cont.js"></script>
+ 
+ <script>   
+
+var loader = document.getElementById("preloader");
+
+window.addEventListener("load", function() {
+  loader.style.display = "none";
+});
+
+
+</script>
+
 </main>
 </html>
