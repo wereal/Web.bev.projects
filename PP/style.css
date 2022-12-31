@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 
+main {
+
+background-color: rgb(123, 189, 167);
+display: absolute;
+justify-content: center;
+}
+
 .clr {
   background-color: #04adfc74;
 }
