@@ -1,7 +1,7 @@
 
+ var homeLink = document.getElementById("home-link");
+ homeLink.addEventListener("click", function() {
+   window.location = "index.html";
+ });
 
-document.getElementById("homeButton").addEventListener("click", function() {
-  window.location.href = "/home";
-});
-
-<script src="js-file/js-cont2.js"></script>
+ homeLink();
