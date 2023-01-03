@@ -1,11 +1,5 @@
 
-main {
-
-background-color: rgb(25, 23, 23);
-display: absolute;
-
-}
-
+/*  clr for background-color    */
 .clr {
   background-color:  #4a5f68ad;
 }
@@ -123,3 +117,34 @@ nav {
 
 
 }
+
+
+.image {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: relative;
+
+ }
+
+h1 {
+
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+
+
+  .text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 2px;
+    color: aliceblue;
+    text-align: justify ;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-10%, 0%);
+    
+
+  }
+  
