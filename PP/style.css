@@ -26,8 +26,12 @@ nav {
   display: flex;
   /* background-color: rgb(179, 157, 131); */
   justify-content: space-around;
+
   width: 30%;
+  padding: 1rem;
+  z-index: 1000; /* This will make the navbar the topmost element on the page */
 }
+
 
 .nav_links li {
   list-style: none;
@@ -46,6 +50,7 @@ nav {
 .burger {
   display: none;
   cursor: pointer;
+  
 }
 
 .burger div {
@@ -90,6 +95,7 @@ nav {
 
 .nav-active {
   transform: translateX(0%);
+  background: #4a5f68ad;
 }
 
 
@@ -132,10 +138,11 @@ h1 {
 
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /*background-color: rgba(74, 95, 104, 0.48); */
   
 }
 
-
+  
   .text{
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -145,7 +152,8 @@ h1 {
     padding-right: 20%;
     padding-left: 20%;
     top: 50%;
-    
+    border-radius: 4px;
+    background: rgba(74, 95, 104, 0.48);
   }
   .img2
   {
