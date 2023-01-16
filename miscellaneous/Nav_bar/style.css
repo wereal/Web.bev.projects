@@ -1,0 +1,95 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 15vh;
+  font-family: 'prosto-one-regular', sans-serif;
+  background-color: #4a5f68ad;
+  border-radius: 4px;
+}
+
+.logo {
+  color:white;
+  font-family: 'prosto-one-regular', sans-serif;
+  text-transform: uppercase;
+  font-size: 22px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.nav_links {
+  display: flex;
+  justify-content: space-around;
+  width: 30%; 
+  padding: 5%;
+  z-index: 1000;
+}
+
+.nav_links li {
+  list-style: none;
+}
+
+.nav_links a {
+  color:hsl(180, 100%, 100%);
+  text-decoration: none;
+  letter-spacing: 0.1px;
+  word-spacing: 5px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+/* new class to hide the nav links */
+.nav-hidden {
+  display: none;
+}
+
+/* styling for the burger icon */
+
+.logo {
+  display: inline-block;
+}
+
+@media screen and (min-width: 600px) {
+  .nav_links {
+    display: inline-block;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .nav_links {
+    display: inline-block;
+  }
+  .logo {
+    order: 1; /* places the logo before the nav links */
+    width: 100%; /* takes up the full width */
+    text-align: center; /* centers the text */
+  }
+  .burger {
+    display: block;
+    cursor: pointer;
+    top: 20px;
+    right: 20px;
+  }
+  .line1, .line2, .line3 {
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px 0;
+  }
+  /* class to change the display property of the burger icon */
+  .change .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+  .change .line2 {
+    opacity: 0;
+  }
+  .change .line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
+  .nav_links {
+    order: 2; /* places the nav links after the logo */
+    width: 100%; /* takes up the full width */
+    display: none; /* hides the nav links */
+  }
+}
