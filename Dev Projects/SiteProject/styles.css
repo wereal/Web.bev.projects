@@ -1,0 +1,198 @@
+*{
+    margin:0;
+    padding: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+body{
+
+     background-color:#1d2026;
+     min-height: 100vh;
+     width:  100%;
+     color: beige;
+     position: relative;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.logo{
+
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    padding:20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav ul{
+
+
+    flex:1;
+    text-align: right;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav ul li {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-flex;
+    list-style: none;
+    margin: 0 20px;
+    
+   
+}
+
+nav ul li a{
+
+    color:beige;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+
+}
+.text__wrapper {
+    background:none;
+    text-shadow: none;
+ 
+}
+.text__wrapper:hover {
+  transition: 0.06s;
+  text-shadow : 0 0 3px rgb(255, 255, 255),
+    0 0 25px rgb(255, 255, 255),
+    0 0 20px rgb(255, 255, 255),
+    0 0 100px rgb(255, 255, 255);
+    color:#011522;
+
+}
+
+.text-container{
+margin-left:10%;
+padding-left: 0%;
+padding-right: 1%;
+
+}
+
+
+.text-container-1{
+
+    text-align: justify;
+    text-decoration: none;
+
+   
+
+
+
+}
+
+.title-element-1{
+
+    text-align: center;
+    font-size: 22 ;
+    color: #fff;
+    padding-top: 20px;
+    
+
+}
+
+.container_parent{
+    
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+
+}
+
+
+/*Cards*/
+
+/* Card that is in right side */
+.card {
+    float: right ;
+    width: 40%;
+    height: 300px;
+    background-color: #011522;
+    border-radius: 8px;
+    z-index: 1;
+
+}
+
+/* Card that is in left side */
+
+
+.tools {
+    display: flex;
+    align-items: center;
+    padding: 9px;
+   }
+
+.circle {
+    padding: 0 4px;
+   }
+   
+.box {
+    display: inline-block;
+    align-items: center;
+    width: 10px;
+    height: 10px;
+    padding: 1px;
+    border-radius: 50%;
+   }
+   
+.red {
+    background-color: #ff605c;
+   }
+   
+.yellow {
+    background-color: #ffbd44;
+   }
+   
+.green {
+    background-color: #00ca4e;
+   }
+   
+   
+/* button styles */
+.shadow__btn {
+    padding: 10px 20px;
+    border: none;
+    font-size: 17px;
+    color: #fff;
+    letter-spacing: 4px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.5s;
+    transition-property: box-shadow;
+  }
+  
+  .shadow__btn {
+    background:none;
+    box-shadow: none;
+  }
+  
+  .shadow__btn:hover {
+    box-shadow: 0 0 5px rgb(255, 255, 255),
+                0 0 25px rgb(255, 255, 255),
+                0 0 50px rgb(255, 255, 255),
+                0 0 100px rgb(255, 255, 255);
+            
+  }
+
+ 
+   
+   .card:hover {
+    opacity: 0.8;
+    transform: scale(1.10);
+   }
+   
+
+
+   
+
+/****************************************************************/
